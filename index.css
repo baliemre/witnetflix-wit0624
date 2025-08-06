@@ -2,6 +2,18 @@ h1 {
     color: red
 }
 
+.btn {
+    background: red;
+    color: white;
+    display: inline-block;
+    border: 2px rgb(197,0,0);
+}
+.btn-lg{
+    font-size: 1.2rem;
+    padding: .6rem 2rem;
+    border-radius: .5rem;
+}
+
 /* header */
 header {
     display: flex;
@@ -39,16 +51,39 @@ main {
     border: 1px solid black;
     margin: auto;
     aspect-ratio: 2 / 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+main h1 {
+    margin-top: 0px;
+}
+main > p{
+    width: 60%;
 }
 
 .user-rating i {
     color: red;
     font-size:.9rem;
 }
-
+.movie-details {
+    font-weight: bold;
+}
+.movie-details ul {
+    padding-left: 0px;
+}
+.movie-details li {
+    list-style-type: none;
+}
+.movie-details li span {
+    color: red;
+}
 .user-rating span {
     margin-right: .3rem;
 }
+
 .text-color-gray {
     color: rgba (99, 99, 99, 0.956);
     font-size:.9rem;
