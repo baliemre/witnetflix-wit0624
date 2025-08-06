@@ -105,6 +105,9 @@ main > p{
 }
 
 /* suggestion */
+.suggestion-panel {
+    margin-bottom: 2rem; 
+}
 
 .movie-header {
     display: flex;
