@@ -1,3 +1,61 @@
 h1 {
     color: red
 }
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    width: 10rem;
+}
+header nav a {
+    margin: .3rem;
+}
+.user-panel-control {
+    display: flex;
+    align-items: center;
+}
+.user-panel-control input {
+    padding: .5rem;
+    border-radius: .2rem;
+}
+.user-panel-control i {
+    font-size: 2rem;
+    margin: .3rem;
+}
+.user-panel-control .user {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+}
+
+/* main */
+
+main {
+    width: 98%;
+    border: 1px solid black;
+    margin: auto;
+    aspect-ratio: 2 / 1;
+}
+
+.user-rating i {
+    color: red;
+    font-size:.9rem;
+}
+
+.user-rating span {
+    margin-right: .3rem;
+}
+.text-color-gray {
+    color: rgba (99, 99, 99, 0.956);
+    font-size:.9rem;
+}
+
+.movie-rating {
+    border: 1px solid black;
+    border-radius: .2rem;
+    padding: .2rem; 
+}
