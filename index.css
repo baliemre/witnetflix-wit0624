@@ -51,9 +51,17 @@ header nav a {
     padding: .5rem;
     border-radius: .2rem;
 }
+#search {
+    background-image: url("./assets/images/search-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 15%;
+    width: 10rem;
+}
 .user-panel-control i {
     font-size: 2rem;
-    margin: .3rem;
+    margin: .4rem;
 }
 .user-panel-control .user {
     height: 3rem;
