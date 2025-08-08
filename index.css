@@ -33,6 +33,7 @@ a:hover{
 
 /* header */
 header {
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -186,5 +187,15 @@ footer nav {
         width: 100%;
         text-align: center;
         margin: 1rem;
+    }
+    footer {
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    footer>div:first-child {
+        width:100%;
+    }
+    footer nav {
+        justify-content: center;
     }
 }
