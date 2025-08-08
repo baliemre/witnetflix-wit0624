@@ -6,11 +6,19 @@ h1 {
     color: red
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:red; 
+}
 .btn {
     background: red;
     color: white;
     display: inline-block;
     border: 2px rgb(197,0,0);
+    cursor: pointer;
 }
 .btn-lg{
     font-size: 1.2rem;
@@ -135,4 +143,29 @@ main > p{
 }
 .movie-card h3 {
     margin: 0px;
+}
+/* footer */
+
+footer {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+footer nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media p, .app-store p {
+    margin-top: 0px;
+}
+
+.social-media img, .app-store img {
+    height: 30px;
+    border-radius: .3rem;
+}
+
+.social-media div, .app-store div {
+    display: flex;
+    gap: 10px;
 }
